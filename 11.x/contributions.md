@@ -98,6 +98,7 @@ Laravel follows the [PSR-2](https://github.com/php-fig/fig-standards/blob/master
 
 Below is an example of a valid Laravel documentation block. Note that the `@param` attribute is followed by two spaces, the argument type, two more spaces, and finally the variable name:
 
+```php
     /**
      * Register a binding with the container.
      *
@@ -112,9 +113,11 @@ Below is an example of a valid Laravel documentation block. Note that the `@para
     {
         // ...
     }
+```
 
 When the `@param` or `@return` attributes are redundant due to the use of native types, they can be removed:
 
+```php
     /**
      * Execute the job.
      */
@@ -122,9 +125,11 @@ When the `@param` or `@return` attributes are redundant due to the use of native
     {
         //
     }
+```
 
 However, when the native type is generic, please specify the generic type through the use of the `@param` or `@return` attributes:
 
+```php
     /**
      * Get the attachments for the message.
      *
@@ -136,6 +141,7 @@ However, when the native type is generic, please specify the generic type throug
             Attachment::fromStorage('/path/to/file'),
         ];
     }
+```
 
 <a name="styleci"></a>
 ### StyleCI

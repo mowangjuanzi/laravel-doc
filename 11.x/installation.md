@@ -74,13 +74,13 @@ composer global require laravel/installer
 
 After you have installed PHP, Composer, and the Laravel installer, you're ready to create a new Laravel application. The Laravel installer will prompt you to select your preferred testing framework, database, and starter kit:
 
-```nothing
+```shell
 laravel new example-app
 ```
 
 Once the application has been created, you can start Laravel's local development server, queue worker, and Vite development server using the `dev` Composer script:
 
-```nothing
+```shell
 cd example-app
 npm install && npm run build
 composer run dev
@@ -159,7 +159,7 @@ Herd for macOS uses [dnsmasq](https://en.wikipedia.org/wiki/Dnsmasq) to support 
 
 After installing Herd, the fastest way to create a new Laravel application is using the Laravel CLI, which is bundled with Herd:
 
-```nothing
+```shell
 cd ~/Herd
 laravel new my-app
 cd my-app
@@ -181,7 +181,7 @@ During installation, Herd creates a "parked" directory in your home directory at
 
 After installing Herd, the fastest way to create a new Laravel application is using the Laravel CLI, which is bundled with Herd. To get started, open Powershell and run the following commands:
 
-```nothing
+```shell
 cd ~\Herd
 laravel new my-app
 cd my-app

@@ -91,11 +91,15 @@ Laravel 11 will automatically rehash your user's passwords during authentication
 
 Typically, this should not disrupt your application; however, if your `User` model's "password" field has a name other than `password`, you should specify the field's name via the model's `authPasswordName` property:
 
+```php
     protected $authPasswordName = 'custom_password_field';
+```
 
 Alternatively, you may disable password rehashing by adding the `rehash_on_login` option to your application's `config/hashing.php` configuration file:
 
+```php
     'rehash_on_login' => false,
+```
 
 #### The `UserProvider` Contract
 
@@ -534,10 +538,12 @@ php artisan vendor:publish --tag=passport-migrations
 
 In addition, the password grant type is disabled by default. You may enable it by invoking the `enablePasswordGrant` method in the `boot` method of your application's `AppServiceProvider`:
 
+```php
     public function boot(): void
     {
         Passport::enablePasswordGrant();
     }
+```
 
 <a name="sanctum"></a>
 ### Sanctum
@@ -557,11 +563,13 @@ php artisan vendor:publish --tag=sanctum-migrations
 
 Then, in your application's `config/sanctum.php` configuration file, you should update the references to the `authenticate_session`, `encrypt_cookies`, and `validate_csrf_token` middleware to the following:
 
+```php
     'middleware' => [
         'authenticate_session' => Laravel\Sanctum\Http\Middleware\AuthenticateSession::class,
         'encrypt_cookies' => Illuminate\Cookie\Middleware\EncryptCookies::class,
         'validate_csrf_token' => Illuminate\Foundation\Http\Middleware\ValidateCsrfToken::class,
     ],
+```
 
 <a name="telescope"></a>
 ### Telescope

@@ -143,14 +143,16 @@ Like routing and middleware, exception handling can now be customized from your 
 
 The base controller included in new Laravel applications has been simplified. It no longer extends Laravel's internal `Controller` class, and the `AuthorizesRequests` and `ValidatesRequests` traits have been removed, as they may be included in your application's individual controllers if desired:
 
-    <?php
+```php
+<?php
 
-    namespace App\Http\Controllers;
+namespace App\Http\Controllers;
 
-    abstract class Controller
-    {
-        //
-    }
+abstract class Controller
+{
+    //
+}
+```
 
 <a name="application-defaults"></a>
 #### Application Defaults
