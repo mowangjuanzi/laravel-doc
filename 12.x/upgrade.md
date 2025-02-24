@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # 升级指南
 
-> Commit ID: [1ae07b0e1cb7539b7c9c0f4a69eabbb93d50a3a0](https://github.com/laravel/docs/blob/11.x/11.x/upgrade.md)
+> Commit ID: [1ae07b0e1cb7539b7c9c0f4a69eabbb93d50a3a0](https://github.com/laravel/docs/blob/12.x/upgrade.md)
 
 ## Upgrading To 11.0 From 10.x
 

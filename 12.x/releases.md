@@ -1,6 +1,6 @@
 # 发行说明
 
-> Commit ID: [f81965f336cd20e8af9999cde362175547b48f02](https://github.com/laravel/docs/blob/11.x/releases.md)
+> Commit ID: [f81965f336cd20e8af9999cde362175547b48f02](https://github.com/laravel/docs/blob/12.x/releases.md)
 
 ## Versioning Scheme
 

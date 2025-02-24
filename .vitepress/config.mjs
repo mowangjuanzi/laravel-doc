@@ -8,26 +8,26 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {
-        text: '11.x', link: '/11',
+        text: '12.x', link: '/12.x/installation.md',
       },
     ],
 
     sidebar:  {
-      "/11.x": [
+      "/12.x": [
         {
           text: "序言",
           items: [
             {
               text: "发行说明",
-              link: "/11.x/releases.md"
+              link: "/12.x/releases.md"
             },
             {
               text: "升级指南",
-              link: "/11.x/upgrade.md"
+              link: "/12.x/upgrade.md"
             },
             {
               text: "贡献指南",
-              link: "/11.x/contributions.md"
+              link: "/12.x/contributions.md"
             }
           ]
         },
@@ -36,7 +36,7 @@ export default defineConfig({
           items: [
             {
               text: "安装",
-              link: "/11.x/installation.md"
+              link: "/12.x/installation.md"
             }
           ]
         }

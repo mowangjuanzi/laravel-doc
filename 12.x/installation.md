@@ -1,18 +1,15 @@
 # 安装
 
-> Commit ID: [981c6152c4a49a0910d72577afc43025ca43602b](https://github.com/laravel/docs/blob/11.x/installation.md)
+> Commit ID: [68c1d757aa86b2ebecf5f4085564c96241b57a82](https://github.com/laravel/docs/blob/12.x/installation.md)
 
 <a name="meet-laravel"></a>
-## Meet Laravel
+## ‌初识 Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application, allowing you to focus on creating something amazing while we sweat the details.
+Laravel 是以优雅语法与高表达力著称的 Web 应用框架。作为开发工具，该框架为应用构建提供结构化与起点，使创造过程聚焦于核心价值，技术细节则由框架自动处理。
 
 Laravel strives to provide an amazing developer experience while providing powerful features such as thorough dependency injection, an expressive database abstraction layer, queues and scheduled jobs, unit and integration testing, and more.
 
 Whether you are new to PHP web frameworks or have years of experience, Laravel is a framework that can grow with you. We'll help you take your first steps as a web developer or give you a boost as you take your expertise to the next level. We can't wait to see what you build.
-
-> [!NOTE]  
-> New to Laravel? Check out the [Laravel Bootcamp](https://bootcamp.laravel.com) for a hands-on tour of the framework while we walk you through building your first Laravel application.
 
 <a name="why-laravel"></a>
 ### Why Laravel?
@@ -29,7 +26,7 @@ If you're a senior developer, Laravel gives you robust tools for [dependency inj
 
 Laravel is incredibly scalable. Thanks to the scaling-friendly nature of PHP and Laravel's built-in support for fast, distributed cache systems like Redis, horizontal scaling with Laravel is a breeze. In fact, Laravel applications have been easily scaled to handle hundreds of millions of requests per month.
 
-Need extreme scaling? Platforms like [Laravel Vapor](https://vapor.laravel.com) allow you to run your Laravel application at nearly limitless scale on AWS's latest serverless technology.
+Need extreme scaling? Platforms like [Laravel Cloud](https://cloud.laravel.com) allow you to run your Laravel application at nearly limitless scale.
 
 #### A Community Framework
 
@@ -96,7 +93,7 @@ Once you have started the development server, your application will be accessibl
 
 All of the configuration files for the Laravel framework are stored in the `config` directory. Each option is documented, so feel free to look through the files and get familiar with the options available to you.
 
-Laravel needs almost no additional configuration out of the box. You are free to get started developing! However, you may wish to review the `config/app.php` file and its documentation. It contains several options such as `timezone` and `locale` that you may wish to change according to your application.
+Laravel needs almost no additional configuration out of the box. You are free to get started developing! However, you may wish to review the `config/app.php` file and its documentation. It contains several options such as `url` and `locale` that you may wish to change according to your application.
 
 <a name="environment-based-configuration"></a>
 ### Environment Based Configuration
@@ -359,9 +356,6 @@ Now that you have created your Laravel application, you may be wondering what to
 
 How you want to use Laravel will also dictate the next steps on your journey. There are a variety of ways to use Laravel, and we'll explore two primary use cases for the framework below.
 
-> [!NOTE]  
-> New to Laravel? Check out the [Laravel Bootcamp](https://bootcamp.laravel.com) for a hands-on tour of the framework while we walk you through building your first Laravel application.
-
 <a name="laravel-the-fullstack-framework"></a>
 ### Laravel the Full Stack Framework
 
@@ -380,6 +374,3 @@ If you are using Laravel as a full stack framework, we also strongly encourage y
 Laravel may also serve as an API backend to a JavaScript single-page application or mobile application. For example, you might use Laravel as an API backend for your [Next.js](https://nextjs.org) application. In this context, you may use Laravel to provide [authentication](/docs/{{version}}/sanctum) and data storage / retrieval for your application, while also taking advantage of Laravel's powerful services such as queues, emails, notifications, and more.
 
 If this is how you plan to use Laravel, you may want to check out our documentation on [routing](/docs/{{version}}/routing), [Laravel Sanctum](/docs/{{version}}/sanctum), and the [Eloquent ORM](/docs/{{version}}/eloquent).
-
-> [!NOTE]  
-> Need a head start scaffolding your Laravel backend and Next.js frontend? Laravel Breeze offers an [API stack](/docs/{{version}}/starter-kits#breeze-and-next) as well as a [Next.js frontend implementation](https://github.com/laravel/breeze-next) so you can get started in minutes.

@@ -1,6 +1,6 @@
 # 贡献指南
 
-> Commit ID: [38fa9c370f19c1bfad16eb1b9e83884f94cf526a](https://github.com/laravel/docs/blob/11.x/contributions.md)
+> Commit ID: [38fa9c370f19c1bfad16eb1b9e83884f94cf526a](https://github.com/laravel/docs/blob/12.x/contributions.md)
 
 <a name="bug-reports"></a>
 ## Bug Reports

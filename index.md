@@ -9,6 +9,6 @@ hero:
   actions:
     - theme: brand
       text: 新手入门
-      link: /11.x/installation.md
+      link: /12.x/installation.md
 ---
 
